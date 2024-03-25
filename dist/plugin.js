@@ -1,5 +1,5 @@
-exports.version = 1.1
-exports.description = "This is a dumb theme, meant to be just an example for creators"
+exports.version = 1.0
+exports.description = "Theme for hfs server"
 exports.apiRequired = 1
-exports.repo = "rejetto/theme-example"
+exports.repo = "ninsaccplayzyt/hfs-theme"
 exports.frontend_css = 'style.css'
