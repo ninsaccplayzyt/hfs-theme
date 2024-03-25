@@ -1,13 +1,33 @@
+/* Set up body background */
 body {
-	background-image: url(star.svg);
-	background-position: top right;
-	background-repeat: no-repeat;
-	background-size: 3em;
+    background-image: url('bssr.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Gotham Black, sans-serif;
+    filter: blur(0.3em);
+}
+
+.button {
+    background-color: var(--button-bg);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3b7ab8;
+}
+
+:root .theme-dark {
+    --button-bg: #448;
 }
 
 :root {
-	--button-bg: #55a;
-}
-:root .theme-dark {
-	--button-bg: #448;
+    --button-bg: #55a;
 }
